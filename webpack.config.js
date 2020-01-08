@@ -15,7 +15,7 @@ module.exports = (env, argv) => ({
     filename: '[name].js',
     sourceMapFilename: '[name].js.map',
     devtoolModuleFilenameTemplate: '../[resource-path]',
-    library: 'ReactDraggable',
+    library: 'ReactDomDrag',
     libraryTarget: 'umd',
     path: path.resolve(__dirname, 'build', 'web'),
 	},
