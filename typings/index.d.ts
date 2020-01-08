@@ -1,4 +1,4 @@
-declare module 'react-draggable' {
+declare module 'react-dom-drag' {
   import * as React from 'react';
 
   export interface DraggableBounds {
